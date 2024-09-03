@@ -3,19 +3,17 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 245, 245, 245;
-  --background-end-rgb: 255, 255, 255;
+  --primary-color: #48cfcb;
+  --secondary-color: #229799;
+  --accent-color: #f5f5f5;
+  --dark-accent-color: #696969;
+  --text-color: #f5f5f5;
+  --dark-text-color: #696969;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: var(--accent-color);
+  background: var(--accent-color);
 }
 
 @layer utilities {

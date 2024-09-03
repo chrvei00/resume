@@ -24,7 +24,7 @@ const Header: React.FC = () => {
             bread={header.headerBread}
           />
           <button className="font-bold py-2 px-4 border-b-4 rounded startButton">
-            Start -{">"}
+            Begin
           </button>
         </div>
       </div>

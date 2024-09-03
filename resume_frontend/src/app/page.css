@@ -1,0 +1,10 @@
+.navbarDiv {
+  position: fixed;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .navbarDiv {
+    display: none;
+  }
+}

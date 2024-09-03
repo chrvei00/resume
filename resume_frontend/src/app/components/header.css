@@ -21,9 +21,9 @@
 .startButton {
   margin-left: 15%;
   margin-top: 5%;
-  color: white;
-  background-color: rgb(72, 207, 203);
-  border-color: rgb(34, 151, 153);
+  color: var(--text-color);
+  background-color: var(--primary-color);
+  border-color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {

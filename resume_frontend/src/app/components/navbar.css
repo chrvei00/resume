@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: rgb(72, 207, 203);
+  background: radial-gradient(
+    circle,
+    rgba(72, 207, 203, 1) 17%,
+    rgba(245, 245, 245, 0.5732886904761905) 51%
+  );
+  color: var(--dark-text-color);
+}
+
+li {
+  padding: 1rem 0.5rem;
+}
