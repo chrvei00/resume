@@ -1,0 +1,64 @@
+.section {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.sectionImage {
+  height: auto;
+  width: 25%;
+  border-radius: 1%;
+  align-items: center;
+}
+
+.sectionTextDiv {
+  justify-content: flex-start;
+  height: auto;
+  width: 40%;
+  padding-left: 0%;
+}
+
+.startButton {
+  margin-left: 15%;
+  margin-top: 5%;
+  color: white;
+  background-color: rgb(72, 207, 203);
+  border-color: rgb(34, 151, 153);
+}
+
+@media (max-width: 768px) {
+  .section {
+    flex-flow: column nowrap;
+  }
+
+  .sectionImage {
+    height: auto;
+    width: 50%;
+  }
+
+  .sectionTextDiv {
+    width: 80%;
+  }
+}
+
+@media (max-width: 480px) {
+  .sectionImage {
+    width: 75%;
+    height: 25%;
+  }
+
+  .sectionTextDiv {
+    width: 100%;
+  }
+}
+
+.sectionButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 20vh;
+  width: auto;
+}

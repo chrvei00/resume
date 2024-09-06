@@ -1,0 +1,31 @@
+.subSection {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+  margin-right: 10%;
+}
+
+.title {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.company {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.date {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.description {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
