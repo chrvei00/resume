@@ -25,7 +25,7 @@ export default function Home() {
       <Header />
       <Section {...educationProps} side={false} />
       <Section {...experienceProps} side={true} />
-      {/* <Technologies technologies={technologies} /> */}
+      <Technologies technologies={technologies} />
     </main>
   );
 }
