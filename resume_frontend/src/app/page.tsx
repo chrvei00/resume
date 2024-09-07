@@ -1,8 +1,9 @@
 import Header from "./components/header";
 import Section from "./components/section";
+import Technologies from "./components/technologies";
 
 //Text and images
-import { education, experience } from "./text";
+import { education, experience, technologies } from "./text";
 import educationImage from "../../public/calfootball.jpeg";
 import experienceImage from "../../public/besseggen.jpeg";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Header />
       <Section {...educationProps} side={false} />
       <Section {...experienceProps} side={true} />
+      {/* <Technologies technologies={technologies} /> */}
     </main>
   );
 }

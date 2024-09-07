@@ -83,3 +83,16 @@ export const experience = [
   experienceBankkom,
   experienceNTNUIGolf,
 ];
+
+// Technologies
+const technologyJava = {
+  name: "Java",
+  image: null,
+};
+
+const technologyReact = {
+  name: "React",
+  image: null,
+};
+
+export const technologies = [technologyJava, technologyReact];
