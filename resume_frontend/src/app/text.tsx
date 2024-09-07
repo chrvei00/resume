@@ -38,3 +38,48 @@ const educationUIT = {
 };
 
 export const education = [educationBerkeley, educationNTNU, educationUIT];
+
+// Experience
+
+const experienceECIT = {
+  title: "Experience",
+  company: "ECIT",
+  startDate: "August 2020",
+  endDate: "May 2021",
+  description:
+    "I worked as a software engineer at ECIT in Norway. I worked on a team that developed software for the oil and gas industry.",
+};
+
+const experienceNTNU = {
+  title: "Experience",
+  company: "NTNU",
+  startDate: "August 2019",
+  endDate: "May 2020",
+  description:
+    "I worked as a research assistant at NTNU in Norway. I worked on a team that developed machine learning algorithms for medical imaging.",
+};
+
+const experienceBankkom = {
+  title: "Experience",
+  company: "Bankkom",
+  startDate: "August 2018",
+  endDate: "May 2019",
+  description:
+    "I worked as a software engineer at Bankkom in Norway. I worked on a team that developed software for the banking industry.",
+};
+
+const experienceNTNUIGolf = {
+  title: "Experience",
+  company: "NTNUIGolf",
+  startDate: "August 2017",
+  endDate: "May 2018",
+  description:
+    "I worked as a software engineer at NTNUIGolf in Norway. I worked on a team that developed software for the golf industry.",
+};
+
+export const experience = [
+  experienceECIT,
+  experienceNTNU,
+  experienceBankkom,
+  experienceNTNUIGolf,
+];
