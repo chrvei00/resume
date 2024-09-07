@@ -34,9 +34,14 @@ const Section: React.FC<SectionProps> = ({
     <>
       <div className="section">
         {side ? (
-          <Image src={image} alt="photo" width={250} className="sectionImage" />
+          <Image
+            src={image}
+            alt="photo"
+            width={250}
+            className="sectionImage imageLeft"
+          />
         ) : null}
-        <div className="sectionTextDiv">
+        <div className={side ? "sectionTextDivRight" : "sectionTextDiv"}>
           <HeaderText title={title} subTitle="" bread="" />
           {subsections.map((subSectionElement) => (
             <SubSection
@@ -46,7 +51,12 @@ const Section: React.FC<SectionProps> = ({
           ))}
         </div>
         {side ? null : (
-          <Image src={image} alt="photo" width={250} className="sectionImage" />
+          <Image
+            src={image}
+            alt="photo"
+            width={250}
+            className="sectionImage imageRight"
+          />
         )}
       </div>
     </>

@@ -7,6 +7,10 @@
   margin-bottom: 10%;
 }
 
+.imageLeft {
+  margin-right: 0%;
+}
+
 .sectionImage {
   height: auto;
   width: 25%;
@@ -15,10 +19,16 @@
 }
 
 .sectionTextDiv {
-  justify-content: flex-start;
+  justify-content: center;
   height: auto;
   width: 40%;
   padding-left: 0%;
+}
+
+.sectionTextDivRight {
+  height: auto;
+  width: 40%;
+  padding-left: 10%;
 }
 
 .startButton {
