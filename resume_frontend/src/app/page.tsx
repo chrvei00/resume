@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import Section from "./components/section";
 import Technologies from "./components/technologies";
+import Contact from "./components/contact";
 
 //Text and images
 import { education, experience, technologies } from "./text";
@@ -23,9 +24,11 @@ export default function Home() {
   return (
     <main>
       <Header />
+      <div id="education" />
       <Section {...educationProps} side={false} />
       <Section {...experienceProps} side={true} />
       <Technologies technologies={technologies} />
+      <Contact />
     </main>
   );
 }

@@ -1,0 +1,55 @@
+.contactSection {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 0;
+  /* Add backround style */
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.randoImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contactLinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-left: 10%;
+}
+
+.contactLinksSection {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 2% 2%;
+}
+
+.contactLinksProfiles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2% 2%;
+}
+
+@media (max-width: 768px) {
+  .randoImage {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 410px) {
+  .randoImage {
+    display: none;
+  }
+}
