@@ -9,6 +9,7 @@
   --dark-accent-color: #696969;
   --text-color: #f5f5f5;
   --dark-text-color: #696969;
+  scroll-behavior: smooth;
 }
 
 body {
