@@ -1,0 +1,35 @@
+.technologySection {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.technologyHeader {
+  align-items: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.technologyIcon {
+  height: 50px;
+  width: 50px;
+}
+
+.icon {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+}

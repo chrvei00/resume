@@ -23,9 +23,11 @@ const Header: React.FC = () => {
             subTitle={header.headerSubTitle}
             bread={header.headerBread}
           />
-          <button className="font-bold py-2 px-4 border-b-4 rounded startButton">
-            GOTO: Education
-          </button>
+          <a href="#education" className="scrollButton">
+            <button className="font-bold py-2 px-4 border-b-4 rounded startButton">
+              GOTO: Education
+            </button>
+          </a>
         </div>
       </div>
     </>

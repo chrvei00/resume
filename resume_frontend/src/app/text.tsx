@@ -83,3 +83,73 @@ export const experience = [
   experienceBankkom,
   experienceNTNUIGolf,
 ];
+
+// Technologies
+
+// Technology icons
+import javaIcon from "../../public/icons/java.svg";
+import reactIcon from "../../public/icons/react.svg";
+import pythonIcon from "../../public/icons/python.svg";
+import gitHubIcon from "../../public/icons/github.svg";
+import dockerIcon from "../../public/icons/docker.svg";
+import htmlIcon from "../../public/icons/html.svg";
+import cssIcon from "../../public/icons/css.svg";
+import javaScriptIcon from "../../public/icons/javascript.svg";
+import excelIcon from "../../public/icons/excel.svg";
+
+const technologyJava = {
+  name: "Java",
+  image: javaIcon,
+};
+
+const technologyReact = {
+  name: "React",
+  image: reactIcon,
+};
+
+const technologyPython = {
+  name: "Python",
+  image: pythonIcon,
+};
+
+const technologyGitHub = {
+  name: "GitHub",
+  image: gitHubIcon,
+};
+
+const technologyDocker = {
+  name: "Docker",
+  image: dockerIcon,
+};
+
+const technologyHTML = {
+  name: "HTML",
+  image: htmlIcon,
+};
+
+const technologyCSS = {
+  name: "CSS",
+  image: cssIcon,
+};
+
+const technologyJavaScript = {
+  name: "JavaScript",
+  image: javaScriptIcon,
+};
+
+const technologyExcel = {
+  name: "Excel",
+  image: excelIcon,
+};
+
+export const technologies = [
+  technologyJava,
+  technologyReact,
+  technologyPython,
+  technologyGitHub,
+  technologyDocker,
+  technologyHTML,
+  technologyCSS,
+  technologyJavaScript,
+  technologyExcel,
+];
