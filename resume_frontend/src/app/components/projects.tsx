@@ -1,4 +1,4 @@
-import projectImage from "../../../public/project.jpeg";
+import projectImage from "../../../public/project_2.jpeg";
 import Image from "next/image";
 import githubIcon from "../../../public/icons/github.svg";
 import HeaderText from "./ui/headerText";
@@ -18,16 +18,20 @@ export interface ProjectProps {
 const Projects: React.FC<ProjectProps> = ({ projects }) => {
   return (
     <div className="projectsSection">
-      <HeaderText title="Projects" subTitle="" bread="" />
       {/* Temporary */}
+      <HeaderText title="Projects" subTitle="" bread="" />
       <div className="imageContainer">
         <Image src={projectImage} alt="project" className="projectImage" />
         <div className="overlayContainer">
-          <a href="https://github.com/chrvei00" target="_blank">
-            Project section is currently work in progress. Check out my
-            repositories on github in the meantime:
-            <Image src={githubIcon} alt="github" width={50} />
-          </a>
+          <div>
+            Showcase section is currently a work in progress. In the meantime,
+            check out my repositories on github:
+          </div>
+          <div>
+            <a href="https://github.com/chrvei00" target="_blank">
+              <Image src={githubIcon} alt="github" width={50} />
+            </a>
+          </div>
         </div>
       </div>
       {/* Temporary */}

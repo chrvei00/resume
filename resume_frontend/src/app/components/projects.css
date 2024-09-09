@@ -1,13 +1,19 @@
 .projectsSection {
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
+  height: auto;
+  padding: 5rem 0%;
 }
 
 .imageContainer {
   margin: 5% auto;
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectImage {
@@ -18,20 +24,26 @@
 
 .overlayContainer {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(34, 151, 153, 0.8);
-  border: #fff;
-  border-radius: 10px;
+  border: 1px solid #fff;
   color: #fff;
-  padding: 10px 20px;
   font-size: 20px;
   text-align: center;
-  height: 30%;
+  height: 40%;
+  border-radius: 2%;
 }
 
 .overlayContainer img {
-  align-items: center;
-  padding: 3% auto auto auto;
+  margin: auto;
+  width: 50%;
+}
+
+.overlayContainer:hover {
+  background-color: rgb(34, 151, 153, 0.9);
 }

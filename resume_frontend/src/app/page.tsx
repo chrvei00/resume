@@ -42,13 +42,13 @@ export default function Home() {
   const navLinks: NavLink[] = [
     { id: "education", ref: educationRef, title: "Education", index: 0 },
     { id: "experience", ref: experienceRef, title: "Experience", index: 1 },
+    { id: "projects", ref: projectsRef, title: "Projects", index: 2 },
     {
       id: "technologies",
       ref: technologiesRef,
       title: "Technologies",
-      index: 2,
+      index: 3,
     },
-    { id: "projects", ref: projectsRef, title: "Projects", index: 3 },
     { id: "contact", ref: contactRef, title: "Contact", index: 4 },
   ];
 
@@ -60,10 +60,10 @@ export default function Home() {
       <Section {...educationProps} side={false} />
       <div id="experience" ref={experienceRef} />
       <Section {...experienceProps} side={true} />
-      <div id="technologies" ref={technologiesRef} />
-      <Technologies technologies={technologies} />
       <div id="projects" ref={projectsRef} />
       <Projects projects={projects} />
+      <div id="technologies" ref={technologiesRef} />
+      <Technologies technologies={technologies} />
       <div id="contact" ref={contactRef} />
       <Contact />
     </main>
