@@ -1,0 +1,49 @@
+.projectsSection {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  padding: 5rem 0%;
+}
+
+.imageContainer {
+  margin: 5% auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectImage {
+  display: block;
+  width: 60%;
+  height: auto;
+}
+
+.overlayContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(34, 151, 153, 0.8);
+  border: 1px solid #fff;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  height: 40%;
+  border-radius: 2%;
+}
+
+.overlayContainer img {
+  margin: auto;
+  width: 50%;
+}
+
+.overlayContainer:hover {
+  background-color: rgb(34, 151, 153, 0.9);
+}

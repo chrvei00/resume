@@ -153,3 +153,8 @@ export const technologies = [
   technologyJavaScript,
   technologyExcel,
 ];
+
+//Projects
+import { project } from "./components/projects";
+
+export const projects: project[] = [];

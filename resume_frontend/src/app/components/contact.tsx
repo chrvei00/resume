@@ -9,8 +9,8 @@ import randoImage from "../../../public/rando.jpeg";
 
 const Contact = () => {
   return (
-    <div className="contactSection">
-      <Image src={randoImage} width={150} alt="rando" className="randoImage" />
+    <div className="contactSection" id="contact">
+      <Image src={randoImage} alt="rando" className="randoImage" />
       <div className="contactLinks">
         <div className="contactLinksSection">
           <Image src={emailIcon} alt="email" width={50} className="emailIcon" />
