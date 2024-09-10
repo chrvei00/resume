@@ -11,30 +11,30 @@ export const header = {
 
 // Education
 const educationBerkeley = {
-  title: "Education",
+  title: "Exchange - Data Science",
   company: "UC Berkeley",
-  startDate: "August 2018",
-  endDate: "May 2022",
+  startDate: "August 2024",
+  endDate: "(december 2024)",
   description:
-    "I am currently a senior at UC Berkeley studying computer science. I have taken courses in data structures, algorithms, and software engineering. I have also taken courses in machine learning and artificial intelligence.",
+    "Exchange semester at UC Berkeley in California. I took courses in machine learning, cognitive science and user experience design.",
 };
 
 const educationNTNU = {
-  title: "Education",
+  title: "Data Science & Artificial Intelligence",
   company: "NTNU",
-  startDate: "August 2016",
-  endDate: "May 2018",
+  startDate: "August 2021",
+  endDate: "(june 2026)",
   description:
-    "I studied computer science at NTNU in Norway. I took courses in algorithms, data structures, and software engineering.",
+    "My current studies are in data science and artificial intelligence at NTNU Trondheim in Norway.",
 };
 
 const educationUIT = {
-  title: "Education",
+  title: "Business economics",
   company: "UIT",
-  startDate: "August 2014",
-  endDate: "May 2016",
+  startDate: "August 2019",
+  endDate: "June 2021",
   description:
-    "I studied computer science at UIT in Norway. I took courses in algorithms, data structures, and software engineering.",
+    "I studied business economics at UIT Alta in Norway. This is a one year study split up by a one year military service which started january 2020.",
 };
 
 export const education = [educationBerkeley, educationNTNU, educationUIT];
@@ -42,39 +42,36 @@ export const education = [educationBerkeley, educationNTNU, educationUIT];
 // Experience
 
 const experienceECIT = {
-  title: "Experience",
+  title: "Consultant at Axan Invest AS",
   company: "ECIT",
-  startDate: "August 2020",
-  endDate: "May 2021",
+  startDate: "Januar 2022",
+  endDate: "July 2022",
   description:
-    "I worked as a software engineer at ECIT in Norway. I worked on a team that developed software for the oil and gas industry.",
+    "As a consultant at ECIT, placed with the investment company Axan Invest AS, I was responsible for preparing and analyzing parts of the financial statements using PowerOffice. In this role, I worked independently, which allowed me to develop my skills by taking on challenging tasks, often in areas where I had limited prior knowledge. I received valuable support and guidance from my manager, Birgitte Kristiansen.",
 };
 
 const experienceNTNU = {
-  title: "Experience",
+  title: "Learning Assistant - Object Oriented Programming",
   company: "NTNU",
-  startDate: "August 2019",
-  endDate: "May 2020",
-  description:
-    "I worked as a research assistant at NTNU in Norway. I worked on a team that developed machine learning algorithms for medical imaging.",
+  startDate: "Januar 2023",
+  endDate: "June 2024",
+  description: "",
 };
 
 const experienceBankkom = {
-  title: "Experience",
-  company: "Bankkom",
-  startDate: "August 2018",
-  endDate: "May 2019",
-  description:
-    "I worked as a software engineer at Bankkom in Norway. I worked on a team that developed software for the banking industry.",
+  title: "Vice Leader",
+  company: "Bankkom - Abakus Student Organization",
+  startDate: "August 2022",
+  endDate: "June 2024",
+  description: "",
 };
 
 const experienceNTNUIGolf = {
-  title: "Experience",
-  company: "NTNUIGolf",
-  startDate: "August 2017",
-  endDate: "May 2018",
-  description:
-    "I worked as a software engineer at NTNUIGolf in Norway. I worked on a team that developed software for the golf industry.",
+  title: "Board Member - Economy",
+  company: "NTNUI Golf",
+  startDate: "February 2023",
+  endDate: "February 2024",
+  description: "",
 };
 
 export const experience = [
