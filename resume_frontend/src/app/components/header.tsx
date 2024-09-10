@@ -25,7 +25,7 @@ const Header: React.FC = () => {
           />
           <a href="#education" className="scrollButton">
             <button className="font-bold py-2 px-4 border-b-4 rounded startButton">
-              GOTO: Education
+              Start
             </button>
           </a>
         </div>

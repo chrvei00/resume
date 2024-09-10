@@ -33,7 +33,7 @@ const Navbar: React.FC<navbarProps> = ({ navLinks }) => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [navLinks]);
 
   return (
     <div className="navbar">
@@ -41,7 +41,7 @@ const Navbar: React.FC<navbarProps> = ({ navLinks }) => {
         <a
           key={link.id}
           href={`#${link.id}`}
-          className={link.index == activeIndex ? "active" : ""}
+          className={link.index == activeIndex ? "active " : ""}
         >
           {link.title}
         </a>
